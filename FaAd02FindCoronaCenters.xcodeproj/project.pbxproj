@@ -11,6 +11,11 @@
 		D8BFF6E32C2C5D2E002FE396 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFF6E22C2C5D2E002FE396 /* ContentView.swift */; };
 		D8BFF6E52C2C5D31002FE396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8BFF6E42C2C5D31002FE396 /* Assets.xcassets */; };
 		D8BFF6E82C2C5D31002FE396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8BFF6E72C2C5D31002FE396 /* Preview Assets.xcassets */; };
+		D8BFF6F02C2C5E7A002FE396 /* CenterAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFF6EF2C2C5E7A002FE396 /* CenterAPIResponse.swift */; };
+		D8BFF6F22C2C5EBD002FE396 /* Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFF6F12C2C5EBD002FE396 /* Center.swift */; };
+		D8BFF6F42C2C60BC002FE396 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFF6F32C2C60BC002FE396 /* APIKey.swift */; };
+		D8BFF6F62C2C6675002FE396 /* CenterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFF6F52C2C6675002FE396 /* CenterAPI.swift */; };
+		D8BFF6F92C2C69C7002FE396 /* CenterNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BFF6F82C2C69C7002FE396 /* CenterNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		D8BFF6E22C2C5D2E002FE396 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D8BFF6E42C2C5D31002FE396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8BFF6E72C2C5D31002FE396 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8BFF6EF2C2C5E7A002FE396 /* CenterAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAPIResponse.swift; sourceTree = "<group>"; };
+		D8BFF6F12C2C5EBD002FE396 /* Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Center.swift; sourceTree = "<group>"; };
+		D8BFF6F32C2C60BC002FE396 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		D8BFF6F52C2C6675002FE396 /* CenterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterAPI.swift; sourceTree = "<group>"; };
+		D8BFF6F82C2C69C7002FE396 /* CenterNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +63,11 @@
 			children = (
 				D8BFF6E02C2C5D2E002FE396 /* FaAd02FindCoronaCentersApp.swift */,
 				D8BFF6E22C2C5D2E002FE396 /* ContentView.swift */,
+				D8BFF6EE2C2C5E53002FE396 /* Entities */,
+				D8BFF6F72C2C668F002FE396 /* Network */,
 				D8BFF6E42C2C5D31002FE396 /* Assets.xcassets */,
 				D8BFF6E62C2C5D31002FE396 /* Preview Content */,
+				D8BFF6F32C2C60BC002FE396 /* APIKey.swift */,
 			);
 			path = FaAd02FindCoronaCenters;
 			sourceTree = "<group>";
@@ -65,6 +78,24 @@
 				D8BFF6E72C2C5D31002FE396 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8BFF6EE2C2C5E53002FE396 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				D8BFF6EF2C2C5E7A002FE396 /* CenterAPIResponse.swift */,
+				D8BFF6F12C2C5EBD002FE396 /* Center.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		D8BFF6F72C2C668F002FE396 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D8BFF6F52C2C6675002FE396 /* CenterAPI.swift */,
+				D8BFF6F82C2C69C7002FE396 /* CenterNetwork.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8BFF6F22C2C5EBD002FE396 /* Center.swift in Sources */,
 				D8BFF6E32C2C5D2E002FE396 /* ContentView.swift in Sources */,
+				D8BFF6F02C2C5E7A002FE396 /* CenterAPIResponse.swift in Sources */,
+				D8BFF6F62C2C6675002FE396 /* CenterAPI.swift in Sources */,
 				D8BFF6E12C2C5D2E002FE396 /* FaAd02FindCoronaCentersApp.swift in Sources */,
+				D8BFF6F92C2C69C7002FE396 /* CenterNetwork.swift in Sources */,
+				D8BFF6F42C2C60BC002FE396 /* APIKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
